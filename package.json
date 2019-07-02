@@ -1,0 +1,19 @@
+{
+  "name": "blueberry-pie-server",
+  "version": "1.0.0",
+  "description": "Server code for Blueberry Pie app",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edmund Bates",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/express": "4.17.0",
+    "@types/node": "12.0.10",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "typescript": "3.5.2"
+  }
+}
